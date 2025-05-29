@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Receptionist Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="page-body">
+  <div class="container">
+    <h1>Receptionist Dashboard</h1>
+    <form id="patient-form" class="form-box">
+      <input type="text" id="patient-name" placeholder="Patient Name" required />
+      <input type="number" id="patient-age" placeholder="Age" required />
+      <button type="submit">Generate Token</button>
+    </form>
+    <div id="token-list" class="token-list"></div>
+  </div>
+  <script src="js/storage.js"></script>
+  <script src="js/receptionist.js"></script>
+</body>
+</html>
